@@ -1,0 +1,70 @@
+\documentclass[12pt]{article}
+ 
+\usepackage{graphicx}
+ 
+\usepackage[T1]{fontenc}
+  
+\newcommand*{\titleRRITD}{\begingroup
+\centering 
+{\Huge \textbf{North South University}}\\[0.23\baselineskip] 
+{\large \textbf{Department of Electrical and Computer Engineering}}\\[0.40\baselineskip]
+\vspace{0.5cm}
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.8]{nsu.png}
+\end{figure}
+\vspace{0.2cm} 
+\centering % Center all 
+{\LARGE \textbf{Project Proposal}}\\[1.0\baselineskip]
+{\Large {\textbf{------------------------------------------------}}}\\[0.30\baselineskip] % Document title 
+{\Huge  {\textbf{"Pokemon Game"}}}\\[0.50\baselineskip]  
+{\Large {\textbf{---------------------------------------------------------}}}\\[0.1\baselineskip]
+\vspace{0.15cm}
+{\large \textsc{Programming Language II Lab\\CS215L\\Section:12}}\par % Author(s) name(s)
+\endgroup
+
+\vspace{0.1cm}
+\vfill % Whitespace between the author name and publisher text
+{\small Name: Zariful Islam \\ID:2131593642\\ Name: Md. Monirul Haque (Arnob)\\ ID: 2132218642}\\[0.2\baselineskip] 
+{\small\-------------------------------\\} 
+  {\Small\ Course Faculty: Md. Tarek Mizan(Lecturer)\\Lab Instructor: Nazmul Alam Diptu}\\[0.5\baselineskip]
+{\Small\textbf{Submission Date : 24th July,2022}}\\[0.2\baselineskip] 
+\endgroup}
+
+ 
+ \begin{document} 
+\newpage
+\pagenumbering{gobble}
+ 
+\titleRRITD 
+ \section*{Introduction:}
+ Pokemon is one of the most OG game in gameboy.
+ In the game user is provided with a single pokemon which he uses throughout the game to acquire more 
+ pokemons and defeat gym trainers. However in our game we are gonna provide the user with a list of 
+ pokemons from which the user can choose 3 pokemons. Then we will skip to the fight with the gym trainer.
+ There will be three 1v1 fights and the player with the last pokemon standing wins.
+
+\section*{Game features:}
+A bunch of pokemons will be provided with each pokemon having four abilities which varies among them.
+The user can pick three pokemons. And a random three pokemons from the pokemon list will be assigned 
+to the gym trainer in our case the computer. The user will be the first one to use an ability or start the 
+battle. 
+
+ \section*{Algorithm:}
+The user uses an ability which either damages the trainers pokemon or suppress one of it's abilities.
+Then its the trainers turn to use it's pokemon's ability. When the first pokemon of the user or the trainer 
+faints, then the second Pokemon is sent to battle. This continues until all the Pokemons of a player faints then the other player wins the battle.
+\newpage
+\section*{UI:}
+The UI will first show the List of Pokemons available from where the user will
+select three. The user can select three of the same kind if he wants to. Then the
+UI will show 3 Pokemons name with their images and the user will click on one to 
+send it to battle. Then the UI will show 4 buttons with ability name. Clicking on 
+a button will execute that ability and proper images/info will be shown if it's a
+hit or a miss. When a Pokemon of the user faints he will be shown two more Pokemons 
+to choose for battle. This continues till there is a winner.
+\section*{Tools:}
+JAVA
+\section*{Github Repository Link:}
+https://github.com/Zuana15/Pokemon-game.git
+\end{document}
